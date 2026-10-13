@@ -1,0 +1,11 @@
+hero-1.jpg is already your Rev Cycling banner (its text is part of the image). Replace it with a new banner of the same wide shape (about 2400 x 1000) to change it.
+Copy your photos into this folder using these names (jpg, or change the extension in js/config.js):
+hero-1.jpg ... hero-4.jpg   The 4 home page banner background images (wide photos, about 2000 px across). Banner only changes when visitors use the arrows or dots.
+tour-1.jpg ... tour-4.jpg   Tour cards (about 1200 x 630)
+about-home.jpg             About section on Home (already set to your Mirissa photo)
+about.jpg                   About us page
+stories.jpg                 Guest stories section
+team-1.jpg ... team-3.jpg   Team photos (square)
+Any photo that is missing shows a placeholder illustration instead.
+blog-1.jpg ... blog-3.jpg   Blog post images on Home
+about-banner.jpg           Wide banner at the top of the About us page

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="icon" href="assets/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<title>Rev Cycling | Guided Cycling Tours in Mirissa, Sri Lanka</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=Figtree:wght@400;500;600&family=Anton&family=Outfit:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="intro" aria-hidden="true"><img class="lg" src="assets/logo-mark.png" alt=""><div class="road"></div>
+<div class="bike"><svg viewBox="0 0 200 120" width="100%" role="img" aria-label=""><g class="bob">
+<g class="wh"><circle cx="45" cy="85" r="30" fill="none" stroke="#02819b" stroke-width="5"/><path d="M45 55V115M15 85H75M24 64l42 42M66 64L24 106" stroke="#02819b" stroke-width="1.6"/></g>
+<g class="wh"><circle cx="155" cy="85" r="30" fill="none" stroke="#02819b" stroke-width="5"/><path d="M155 55V115M125 85H185M134 64l42 42M176 64l-42 42" stroke="#02819b" stroke-width="1.6"/></g>
+<path d="M45 85L82 85 76 42 140 42 82 85M45 85L76 42M140 42L155 85M70 38H92M140 42l6-10h12" fill="none" stroke="#fc4b02" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M80 40L120 14 150 32M82 42L102 64 94 86" fill="none" stroke="#10262b" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="126" cy="6" r="8" fill="#ffd9c2"/><path d="M117 5a9 8 0 0 1 18 0z" fill="#02819b"/>
+<g class="wh pd"><path d="M82 85l12 12M82 85L70 73" stroke="#10262b" stroke-width="4" stroke-linecap="round"/></g></g></svg></div>
+<button class="skip" type="button" onclick="document.getElementById('intro').remove()">Skip</button></div>
+<header><div class="nav">
+<a class="brand" href="#home" aria-label="Rev Cycling home"><img class="logo" src="assets/logo-mark.png" alt="Rev Cycling"></a>
+<div class="menu" id="menu"><nav id="nav"><a href="#home">Home</a><a href="#about">About us</a><a href="#activities">Activities</a><a href="#services">Services</a><a href="#contact">Contact us</a></nav>
+<label class="sb"><input id="sq" type="search" placeholder="Search..." aria-label="Search"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.500-3.500"/></svg></label>
+<a class="btn bn" href="#contact">Book now &#8599;</a>
+</div>
+<button class="burger" id="burger" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="menu"><span></span><span></span><span></span></button>
+</div></header>
+
+<main>
+<!-- HOME -->
+<div class="page" id="p-home">
+<div class="hw"><div class="hero"><div class="art" id="heroArt"></div><div class="shade"></div>
+<button class="arr l" id="hprev" type="button" aria-label="Previous image">&#8249;</button><button class="arr r" id="hnext" type="button" aria-label="Next image">&#8250;</button>
+<div class="ctl"><div class="ci"><span id="cap"></span><div id="heroCtl"></div></div></div>
+<div class="hl"><h1>Explore the hidden Mirissa with Rev Cycling</h1>
+<p class="inc">Every tour includes:</p><div class="chips"><span>Local guides</span><span>Support van</span><span>Small groups</span><span>Quality bikes</span><span>Hotel pickup</span></div></div>
+</div>
+<div class="hr"><div class="hb"><a class="hbtn" href="#contact">Plan your trip &#8599;</a><a class="hbtn" href="#activities">Explore tours</a></div>
+<p>Guided rides through paddy fields, fishing villages and palm-lined lanes around Mirissa. Never more than 8 riders per group.</p></div>
+</div>
+<section style="padding:44px 0 10px"><div class="wrap"><div class="trust" style="margin:0;justify-content:space-between;color:var(--ink)"><div><b>4.8</b>TripAdvisor</div><div><b>4.7</b>Google</div><div><b>2,000+</b>guests hosted</div><div><b>8+</b>years on the road</div></div></div></section>
+<section id="aboutHome"><div class="wrap split"><div id="aboutHomeArt" class="aimg"></div>
+<div><span class="tag">About Rev Cycling</span><h2>Guided by certified cycling professionals</h2>
+<p>Rev Cycling is run by certified cycling professionals who know the south coast road by road. We keep our groups small, our bikes well looked after, and every ride relaxed, safe and full of local stories.</p>
+<ul class="chk"><li>Certified cycling professionals as your guides</li><li>Small groups with a support vehicle on every ride</li><li>Well-maintained bikes, properly fitted to each rider</li></ul>
+<a class="btn" href="#about" style="margin-top:12px">More about us</a></div></div></section>
+<section class="band"><div class="wrap"><h2>Why cycle Sri Lanka?</h2><p>An island small enough to cross by bike and full of surprises every kilometre.</p><div class="grid" id="why"></div></div></section>
+<section><div class="wrap"><h2>Rides we love most</h2><div class="grid" id="homeCards"></div><div style="margin-top:44px;text-align:center"><a class="btn" href="#activities">See all tours</a></div></div></section>
+<section class="band"><div class="wrap split"><div><h2>Guest stories</h2><div id="quote" aria-live="polite" style="min-height:190px"></div><div id="qdots" style="display:flex"></div></div><div id="reviewArt" class="aimg"></div></div></section>
+<section><div class="wrap"><h2>From the blog</h2><p>Route ideas, packing tips and stories from the road.</p><div class="grid" id="blog"></div></div></section>
+<section style="padding-top:0"><div class="wrap"><div class="news"><div><h2>Get ride news in your inbox</h2><p>New routes, seasonal offers and cycling tips from Mirissa. One email a month.</p></div>
+<div class="nf"><label class="sr" for="nlMail">Email address</label><input id="nlMail" type="email" placeholder="Your email address" autocomplete="email"><button class="btn" id="nlBtn" type="button">Subscribe</button><div class="ok" id="nlOk" role="status">Thanks! This is a demo form, so nothing was sent.</div></div></div></div></section>
+</div>
+
+<!-- ABOUT -->
+<div class="page" id="p-about">
+<div class="pb"><div class="bn2"><div id="aboutBannerArt" class="art2"></div><div class="ov"></div><div class="bt"><h1>About us</h1><p class="crumb"><a href="#home">Home</a> / About us</p></div></div></div>
+<section><div class="wrap split"><div id="aboutArt"></div>
+<div><span class="tag">Our story</span><h2>Local riders, local roads</h2><p>Rev Cycling started in Mirissa with three friends, a few bikes and a love for the quiet roads behind the beach. Today we run guided tours for riders of every level.</p><br><p>We keep groups small, use well-maintained hybrid and road bikes, and work with village families, cafés and tea growers so the money you spend stays in the community.</p>
+<ul class="chk"><li>Groups of 8 riders or fewer</li><li>First-aid trained, English-speaking guides</li><li>Support vehicle on longer routes</li></ul></div></div></section>
+<section class="band"><div class="wrap"><h2>What we stand for</h2><p>The few simple promises behind every ride we lead.</p><div class="grid" id="values"></div></div></section>
+<section><div class="wrap"><h2>Our journey</h2><p>From a few borrowed bikes to a full guided fleet.</p>
+<div class="tl"><div class="tli"><b>2018</b><h3>Three friends start riding</h3><p>We begin guiding visitors along the back roads around Mirissa.</p></div>
+<div class="tli"><b>2020</b><h3>First support vehicle</h3><p>Sunrise coast tours launch with water, snacks and a lift when needed.</p></div>
+<div class="tli"><b>2023</b><h3>A team of certified guides</h3><p>We grow to a dozen local guides and a larger fleet of well-kept bikes.</p></div>
+<div class="tli"><b>2026</b><h3>New routes, same spirit</h3><p>Hill country rides and private tours join our coast favourites.</p></div></div></div></section>
+<section class="band"><div class="wrap"><h2>Meet the team</h2><div class="grid" id="team"></div></div></section>
+<section><div class="wrap split"><div><span class="tag">Safety and care</span><h2>Certified, trained and ready</h2><p>Rev Cycling is run by certified cycling professionals. Every guide is trained to lead a group, read the road and look after your comfort from the first pedal to the last.</p>
+<ul class="chk"><li>Certified cycling professionals as lead guides</li><li>First-aid training and a route briefing before every ride</li><li>Bikes checked and fitted to each rider every morning</li><li>Support vehicle and local emergency contacts on every route</li></ul></div><div id="certArt"></div></div></section>
+<section style="padding-top:0"><div class="wrap"><div class="news cta"><div><h2>Ready to ride with us?</h2><p>Tell us when you are in Mirissa and we will plan the perfect ride.</p></div>
+<div style="display:flex;gap:12px;flex-wrap:wrap"><a class="btn" href="#contact">Plan your trip</a><a class="btn alt" href="#activities">View activities</a></div></div></div></section>
+</div>
+
+<!-- ACTIVITIES -->
+<div class="page" id="p-activities"><div class="wrap">
+<div class="pagehead"><h1 style="font-size:clamp(2.2rem,6vw,4rem)">Activities</h1><p style="margin-top:12px">Pick a ride that fits your legs and your day. All times and prices are sample data.</p></div>
+<div class="grid" id="acts" style="padding-bottom:70px"></div></div></div>
+
+<!-- SERVICES -->
+<div class="page" id="p-services"><div class="wrap">
+<div class="pagehead"><h1 style="font-size:clamp(2.2rem,6vw,4rem)">Services</h1><p style="margin-top:12px">Everything you need for a smooth ride, with no extras to organise.</p></div>
+<div class="grid" id="svcs"></div>
+<div style="padding:60px 0 70px"><h2>Packages</h2><div class="grid" id="pkgs"></div></div></div></div>
+
+<!-- CONTACT -->
+<div class="page" id="p-contact"><div class="wrap">
+<div class="pagehead"><h1 style="font-size:clamp(2.2rem,6vw,4rem)">Contact us</h1></div>
+<div class="split" style="align-items:start;padding-bottom:70px">
+<div><p>Tell us when you are in Mirissa and what kind of ride you want. We usually reply within a day.</p>
+<ul class="chk" style="margin-top:20px"><li>Main Street, Mirissa 81740, Sri Lanka</li><li>+94 77 123 4567</li><li>hello@revcycling.example</li><li>Daily 6:00 am to 6:00 pm</li></ul>
+<div id="mapArt" style="margin-top:20px"></div></div>
+<div class="card"><div class="b">
+<label for="n">Your name</label><input id="n" autocomplete="name">
+<label for="e">Email</label><input id="e" type="email" autocomplete="email">
+<label for="t">Tour</label><select id="t"><option>Sunrise Coast Ride</option><option>Paddy &amp; Tea Trail</option><option>Sunset Beach Cruise</option><option>Private tour</option></select>
+<label for="m">Message</label><textarea id="m" rows="4"></textarea>
+<div style="margin-top:18px"><button class="btn" id="send" type="button">Send message</button></div>
+<div class="ok" id="ok" role="status">Thanks! This is a demo form, so nothing was sent.</div></div></div></div></div></div>
+</main>
+
+<svg viewBox="0 0 1200 80" preserveAspectRatio="none" aria-hidden="true" style="display:block;width:100%;height:60px;margin-top:-1px"><path style="fill:var(--deep)" d="M0 80V50l120-30 130 40 140-50 150 55 130-35 160 40 150-45 220 40V80Z"/></svg>
+<footer><div class="wrap"><div class="fg">
+<div><span class="flogo"><img src="assets/logo-mark.png" alt="Rev Cycling" height="64"></span><br>Ride the south coast beyond the beaches.</div>
+<div><b style="color:#fff">Explore</b><br><a href="#home">Home</a><br><a href="#activities">Activities</a><br><a href="#services">Services</a><br><a href="#contact">Enquire</a></div>
+<div><b style="color:#fff">About</b><br><a href="#about">Our story</a><br><a href="#services">Bikes &amp; guides</a><br><a href="#home">Guest stories</a></div>
+<div><b style="color:#fff">Contact</b><br>hello@revcycling.example<br>+94 77 123 4567<br>Mirissa, Sri Lanka<br><button class="btn" id="theme" type="button" style="margin-top:12px;padding:8px 18px">Switch theme</button></div></div></div>
+<div class="wrap" style="margin-top:26px;font-size:.85rem">© 2026 Rev Cycling. Placeholder content.</div></footer>
+<a class="wa" href="https://wa.me/94771234567" aria-label="Chat on WhatsApp"><svg width="28" height="28" viewBox="0 0 24 24" fill="#fff"><path d="M12 2a10 10 0 0 0-8.6 15L2 22l5.1-1.3A10 10 0 1 0 12 2zm5.2 14c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .2-3.3-.7-2.8-1.2-4.600-4-4.700-4.200-.1-.2-1.100-1.500-1.100-2.800s.7-2 1-2.300c.2-.3.500-.3.700-.3h.5c.2 0 .4 0 .6.500l.8 2c.1.200.1.400 0 .5l-.4.600-.4.400c-.1.200-.3.300-.1.600.2.300.8 1.300 1.700 2.100 1.200 1 2.100 1.300 2.400 1.500.3.100.5.100.6-.1l.9-1.100c.2-.3.400-.2.600-.1l1.900.9c.3.100.5.200.5.300.1.200.1.800-.1 1.400z"/></svg></a>
+
+<script src="js/config.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
